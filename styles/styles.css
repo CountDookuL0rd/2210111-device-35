@@ -78,7 +78,7 @@ input {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
-  text-transform: uppercase;
+
 }
 .little-title {
   font-weight: 700;
@@ -125,7 +125,7 @@ input {
   background-position: 10px center;
 }
 .navigation {
-  height: 270px;
+  height: 100px;
   width: 1040px;
   flex-direction: column;
   gap: 30px;
@@ -169,7 +169,7 @@ input {
   justify-content: space-between;
 }
 .navigation-list-header {
-  width: 480px;
+  width: 800px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -234,9 +234,14 @@ input {
 
 /*main*/
 
+.logo {
+  mix-blend-mode: multiply;
+}
+
 .navigation-logo-header {
+  mix-blend-mode: multiply;
   position: absolute;
-  top: 20px;
+  top: 5px;
 }
 .number-container {
   display: flex;
@@ -254,12 +259,12 @@ input {
 .main-page {
   margin: 0 auto;
   max-width: 1440px;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 .slider-and-description {
   display: flex;
-  flex-direction: row;
-  margin-left: 140px;
+  flex-direction: column;
+  margin-left: 360px;
   margin-right: 140px;
 }
 .slider-button {
@@ -277,6 +282,7 @@ input {
 }
 .slider {
   display: flex;
+  flex-direction: column;
 }
 .first-slide-description {
   display: flex;
@@ -286,7 +292,12 @@ input {
   margin-bottom: 40px;
   flex-grow: 1;
 }
+.first-slide {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 .slider-button-container {
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -619,7 +630,9 @@ input {
   margin-right: 30px;
 }
 .product-card {
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
   display: flex;
   flex-direction: row;
   padding-left: 40px;
@@ -629,6 +642,9 @@ input {
   background-color: #FFFFFF;
   flex-wrap: wrap;
   flex-grow: 1;
+}
+.product-list-item {
+  width: 380px;
 }
 .product-list {
   display: flex;
@@ -683,7 +699,7 @@ input {
 .product-description-container {
   margin-top: 32px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 .product-card-price {
@@ -1202,4 +1218,30 @@ logo:focus {
 .service-extra:active {
   color: #E5E5E5;
   background-color: #000000;
+}
+.comand-title {
+  margin-left: 600px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.footer-link:hover {
+  color: #d6ad16;
+  border-bottom: 1px solid #d6ad16;
+}
+.vid {
+  margin-left: 280px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.comant-title {
+  margin-top: 30px;
+  margin-left: 340px;
+}
+.comanl-title {
+  margin-left: 460px;
+}
+.tm {
+  margin-left: 210px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
